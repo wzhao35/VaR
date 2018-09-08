@@ -51,11 +51,11 @@ import sys
 import os
 
 s=0.94
-location1 = r'/Users/JJ/Desktop/connexin/SPAN/futures margin/data/ICE-SBV2016.csv'
-location2 = r'/Users/JJ/Desktop/connexin/SPAN/futures margin/data/ICE-SFU2016.csv'
-location3 = r'/Users/JJ/Desktop/connexin/SPAN/futures margin/data/ICE-CCU2016.csv'
-location4 = r'/Users/JJ/Desktop/connexin/SPAN/futures margin/data/ICE-KCU2016.csv'
-location5 = r'/Users/JJ/Desktop/connexin/SPAN/futures margin/data/ICE-CTV2016.csv'
+location1 = r'.../ICE-SBV2016.csv'
+location2 = r'.../ICE-SFU2016.csv'
+location3 = r'.../ICE-CCU2016.csv'
+location4 = r'.../ICE-KCU2016.csv'
+location5 = r'.../ICE-CTV2016.csv'
 data1 = pd.read_csv(location1)
 data2 = pd.read_csv(location2)
 data3 = pd.read_csv(location3)
